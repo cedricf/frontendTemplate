@@ -1,0 +1,15 @@
+<div class="well clearfix">
+    <div class="form-group">
+        <textarea rows="4" class="form-control" ng-model="message" placeholder="tweet message"></textarea>
+    </div>
+    <p class="input-group">
+        <input type="text" class="form-control" uib-datepicker-popup ng-model="date" is-open="opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-default" ng-click="open()"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+    </p>
+    <div uib-timepicker ng-model="time"></div>
+    <button class="btn btn-default pull-right" ng-disabled="!date" ng-click="tweet();">Tweet</button>
+</div>
+
+

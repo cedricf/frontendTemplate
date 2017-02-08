@@ -1,0 +1,23 @@
+{
+  "name": "frontendTemplate",
+  "description": "Angular 2 with Satelizer Template",
+  "main": "index.js",
+  "authors": [
+    "Cedric Franz <cedric.franz@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "satellizer": "^0.15.5",
+    "angular-bootstrap": "^2.4.0",
+    "angular-ui-router": "^0.3.2"
+  }
+}
